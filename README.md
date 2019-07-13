@@ -53,11 +53,13 @@ Data lineage shows the interconnection between all terms, rules and the datasets
 ## Analyze
 
 ### Dashboards 
-Dashboard created to show that the image dataset is varied:
+Dashboard created to show that the image dataset is varied: 
+<img src = "https://github.com/anchalbhalla/detecting-distracted-drivers-icp4d/blob/master/image-gifs/dashboard.png">
 
 ### CNN Model on Notebooks 
 This notebook shows how a CNN model can be created to classify images and then later deploy it as a WML (watson machine learning) model. 
-....link ...
+https://github.com/anchalbhalla/detecting-distracted-drivers-icp4d/blob/master/jupyter/ImageClassification.jupyter-py36.ipynb
 
 ## Android Application 
-Here is a demo of the final application in action
+Here is a demo of the final application in action 
+<img src = "https://github.com/anchalbhalla/detecting-distracted-drivers-icp4d/blob/master/image-gifs/app-demo.gif">
