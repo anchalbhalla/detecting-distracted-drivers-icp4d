@@ -1,0 +1,266 @@
+{
+  "name": "New dashboard",
+  "layout": {
+    "id": "page0",
+    "items": [
+      {
+        "id": "page1",
+        "items": [
+          {
+            "id": "model0000016ac7727140_00000002",
+            "style": {
+              "left": "276.5px",
+              "top": "125px",
+              "height": "420px",
+              "width": "500px"
+            },
+            "type": "widget"
+          },
+          {
+            "id": "model0000016ac77315fc_00000004",
+            "style": {
+              "left": "261px",
+              "top": "589px",
+              "height": "420px",
+              "width": "500px"
+            },
+            "type": "widget"
+          },
+          {
+            "id": "model0000016ac775f6b2_00000000",
+            "style": {
+              "width": "583px",
+              "height": "65px",
+              "left": "235px",
+              "top": "12px"
+            },
+            "type": "widget"
+          }
+        ],
+        "type": "absolute",
+        "title": {
+          "translationTable": {
+            "Default": "Tab 1"
+          }
+        },
+        "templateName": "NoTemplate"
+      }
+    ],
+    "style": {
+      "height": "100%"
+    },
+    "type": "tab"
+  },
+  "theme": "defaultTheme",
+  "version": 1009,
+  "eventGroups": [
+    {
+      "id": "page1:1",
+      "widgetIds": [
+        "model0000016ac7727140_00000002",
+        "model0000016ac77315fc_00000004"
+      ]
+    }
+  ],
+  "properties": {
+    "defaultLocale": "Default"
+  },
+  "dataSources": {
+    "version": "1.0",
+    "sources": [
+      {
+        "id": "model0000016ac7719ba9_00000000",
+        "assetId": "assetId0000016ac7719ba8_00000000",
+        "clientId": "eyJwcm9qZWN0IjoiRGlzdHJhY3Rpb24gRGV0ZWN0aW9uIiwibmFtZSI6ImRpc3RyYWN0aW9uLXRyYWluaW5nLXNldCIsInR5cGUiOiJkYXNoREIifQ==",
+        "module": {
+          "identifier": "aDISTRACTIONTRAININGSET",
+          "label": "DISTRACTIONTRAININGSET",
+          "source": {
+            "id": "DISTRACTIONTRAININGSET",
+            "jdbc": {
+              "connectionProperties": "",
+              "driverClassName": "com.ibm.db2.jcc.DB2Driver",
+              "jdbcUrl": "{enc}bbfYVNagz5R9glOrJ4eMIQpdiMYNBOf2SIJk4Taq/2BdFdZTc/Cojc5d1pIa5y9JBkCKOFn3xxAALfR5sff6jzqX/PBaWsTf+F+hfzK00hl4JEppG0NUZl/yxLOJiOCdywopIqPir/spWBjZW89CXI0Y3jTNvMVCBS21XPWZNReCFlDtU3GO3fgMfIHeBwK51SPSQq2QvZ5Il2/qm5OPnA11iZ7H1PK1cwQorV6lS9/dgFAE/6iiZmTgf7BLx6yrFRn25n79HQmmfMkYp17MYF3iLLn/mOMieXNXFD1D+YJ7NihtH4HCyyslf5QieqkajAsF5atYt+SeCAxqCuuOSw==",
+              "schema": "{enc}R+J++lKiU2fOqxEObnODNVSs/DMf9OyD4gsfKpQk5jqSVv/MWbJc2ZaL3iEAXUhYcy1bbAONSru06yR6zCCJpZxWRPPw+7h3gaHuIB/1jpnqkrjdfWitnlxdexR4crGTWfAbIQ0nivZFY/82hD82qprpLjIPFBWTuPH6gZbuYyvbJmC4+0BQTUjqt65d+fBqmH1KJCAFsfOwp4ZB3VM/YZ29X6QFXewzCDanh/RSF0nLASuwfLgcoGywSoRGrz4Oz3SLiiKC9ww01Qi55JnCipDhY74kaFMyAdws0S8B4F+EJxH325tLDwV7IRxQrbcjZ5Tw5qZkJLxeK5PSC0lmNw=="
+            },
+            "password": "{enc}hfxd4mxoddADbKGGtLk2JBKochG85mvbCkFdU0g+hgdliS3YICZKJOZpr1lzEyRnWZ2XpzX3YSZnqFSBZ6aDaA5ZW2GUvgOIy7HXnGb3FLqKrH0St79zQjDYoTYYZVgCtDO77ynbeTJidFj8I/cyhyGpTgcXy2mrmBQgMgHMzI+1s8LGd72t31G0odJhCZ+AZnNJyKnb3FPmSGR3kTr9r3sIx7CJylXhaw7emEo1eA4ApaEensDCpTgxFcHD4WoYDLgNwxqWae8xh1nu68EgxY66y513+asO1Y6jWZDnngq9HGPq9UVl4vcYedTNG9utPPpKnhhYbxQBa3/k80Uhzw==",
+            "user": "{enc}Vs4U0iwOJfJyP1tSgg1XMgnq9gEUK7nlWBzb0Rc9uYgMPwgCnOgS2TpX3iahY4bIPW7Zr6duVcl+INQKp8oZ4XUAv5uJu9fuFe2TAWrOwzI8EUU1TtJSyuM2aX5uwUlD2IWHsVFQo60125aGAl8l/VfhqT3N4fQNkylSeBojhzNyJVcoGaD1Tlbkxnx+tJarnqK+ZtCIElUpitYv5fpZYQ6X1d7EM9EM3AXymagRwrj/SumB6IHGHTSODui3mwvYsbqGXeDZMYOE1/Xlx1nll8vzN9gM1AopUh7S/F73bDuU+8/e4J7UpOez0PNkdaYINkCvZ1frEzXkWChNdU7+OQ=="
+          },
+          "table": {
+            "column": [
+              {
+                "datatype": "varchar(2)",
+                "description": "classname",
+                "label": "classname",
+                "name": "classname",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(14)",
+                "description": "img",
+                "label": "img",
+                "name": "img",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(4)",
+                "description": "subject",
+                "label": "subject",
+                "name": "subject",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              }
+            ],
+            "name": "DISTRACTIONTRAININGSET"
+          },
+          "xsd": "https://ibm.com/daas/module/1.0/module.xsd"
+        },
+        "name": "distraction-training-set",
+        "shaping": {
+          "embeddedModuleUpToDate": true
+        }
+      }
+    ]
+  },
+  "pageContext": [],
+  "drillThrough": [],
+  "widgets": {
+    "model0000016ac7727140_00000002": {
+      "id": "model0000016ac7727140_00000002",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016ac7719ba9_00000000",
+            "dataItems": [
+              {
+                "id": "model0000016ac772713f_00000000",
+                "itemId": "DISTRACTIONTRAININGSET.classname",
+                "itemLabel": "classname"
+              },
+              {
+                "id": "model0000016ac772713f_00000001",
+                "itemId": "DISTRACTIONTRAININGSET.img",
+                "itemLabel": "img"
+              }
+            ],
+            "id": "model0000016ac7727140_00000000"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model0000016ac772713f_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Segments",
+            "id": "categories",
+            "layerId": "data"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016ac772713f_00000001"
+            ],
+            "caption": "Size",
+            "id": "values",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "name": {
+        "translationTable": {}
+      },
+      "visId": "com.ibm.vis.rave2bundlepie"
+    },
+    "model0000016ac77315fc_00000004": {
+      "id": "model0000016ac77315fc_00000004",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016ac7719ba9_00000000",
+            "dataItems": [
+              {
+                "id": "model0000016ac77315fc_00000000",
+                "itemId": "DISTRACTIONTRAININGSET.classname",
+                "itemLabel": "classname"
+              },
+              {
+                "id": "model0000016ac77315fc_00000001",
+                "itemId": "DISTRACTIONTRAININGSET.img",
+                "itemLabel": "img"
+              },
+              {
+                "id": "model0000016ac7737fc9_00000000",
+                "itemId": "DISTRACTIONTRAININGSET.classname",
+                "itemLabel": "classname"
+              }
+            ],
+            "id": "model0000016ac77315fc_00000002"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model0000016ac77315fc_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Bars",
+            "id": "categories",
+            "layerId": "data"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016ac77315fc_00000001"
+            ],
+            "caption": "Length",
+            "id": "values",
+            "layerId": "data"
+          },
+          {
+            "name": "color",
+            "dataItems": [
+              "model0000016ac7737fc9_00000000"
+            ],
+            "caption": "Color",
+            "id": "color"
+          }
+        ]
+      },
+      "type": "live",
+      "name": {
+        "translationTable": {}
+      },
+      "visId": "com.ibm.vis.rave2bundlebar"
+    },
+    "model0000016ac775f6b2_00000000": {
+      "id": "model0000016ac775f6b2_00000000",
+      "type": "text",
+      "content": {
+        "translationTable": {
+          "Default": "<div class=\"staticContent textFillNoScroll\" dir=\"auto\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"false\"><p class=\"responsiveColor responsiveFontSize responsiveFontFamily\" style=\"font-size: 32px;\"><span>NUMBER OF IMAGES IN EACH CLASS</span></p></div></div></div></div>"
+        }
+      },
+      "isResponsive": true,
+      "visTypeLocked": true,
+      "name": ""
+    }
+  }
+}
