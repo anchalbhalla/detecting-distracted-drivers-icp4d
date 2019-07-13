@@ -62,4 +62,5 @@ https://github.com/anchalbhalla/detecting-distracted-drivers-icp4d/blob/master/j
 
 ## Android Application 
 Here is a demo of the final application in action 
+
 <img src = "https://github.com/anchalbhalla/detecting-distracted-drivers-icp4d/blob/master/image-gifs/app-demo.gif">
